@@ -27,6 +27,8 @@ ol li{
 .header_logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
+    margin: 0px auto 0px 0px;
 }
 
 .info_header {
@@ -44,4 +46,19 @@ ol li{
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+}
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.links {
+    display: flex;
+    padding: 12px;
 }
