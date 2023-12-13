@@ -2,12 +2,17 @@ ol li{
     list-style-type: none;
 }
 
+body {
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
 .header_main{
     display: flex;
     flex-direction: row; /* default value */
     justify-content: space-evenly;
-    width: 100%;
-    height: 100px;
+    padding: 100px;
     background-color: #1F2937;
     align-items: center;
 }
@@ -16,6 +21,10 @@ ol li{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    
 }
 
 .secondary_text {
@@ -28,6 +37,8 @@ ol li{
     background-color: #3882F6;
     border: none;
     border-radius: 4px;
+    margin-right: auto;
+
 }
 
 .header_logo {
@@ -35,6 +46,7 @@ ol li{
     color: #F9FAF8;
     width: 700px;
     font-weight: bold;
+    margin-right: auto;
 }
 
 .info_header {
@@ -54,6 +66,14 @@ ol li{
     font-style: italic;
 }
 
+.section_one {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 64px;
+
+}
+
 
 
 a, a:hover, a:focus, a:active{
@@ -62,7 +82,20 @@ a, a:hover, a:focus, a:active{
 }
 
 .links {
+    display: flex;
     font-size: 24px;
     color: #F9FAF8;
+    gap: 24px;
     
+}
+
+main {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 300px;
+    width: auto;
 }
