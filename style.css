@@ -137,10 +137,25 @@ img {
 .footer_details{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     gap: 128px;
     border: 10px solid #3882F6;
     border-radius: 16px;
     background-color: #3882F6;
     margin: 50px 200px
+}
+
+.footer_text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer_sign_up_button{
+    font-size: 24px;
+    padding:  10px 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 4px solid #F9FAF8;
+    border-radius: 16px;
 }
